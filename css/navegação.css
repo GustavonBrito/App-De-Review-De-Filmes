@@ -1,0 +1,167 @@
+main{
+    color: white;
+    background-color: black;
+}
+.imagem_primeira_secao_stranger{
+    background-image: url(../img/Imagem\ de\ fundo\ stranger\ things\ navegação.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center bottom -250px ;
+}
+.imagem_primeira_secao_vikings{
+  background-image: url(../img/banner_vikings.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center bottom -250px ;
+  background-repeat: no-repeat;
+}
+.imagem_primeira_secao_blinders{
+  background-image: url(../img/Blinders_banner.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center bottom -250px ;
+}
+.imagem_primeira_secao_aranha{
+  background-image: url(../img/homem_aranha_banner.webp);
+  width: 100vw;
+  height: 100vh;
+  background-position: center top -200px ;
+}
+.imagem_primeira_secao_star_wars{
+  background-image: url(../img/Darth_vadder_banner.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center top 150px ;
+}
+.imagem_primeira_secao_strange{
+  background-image: url(../img/doutor_banner.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center top -450px ;
+}
+.titulo_video{
+    display: flex;
+    margin: auto;
+    align-items: baseline;
+    padding: 10px 10px;
+    margin-left: 10%;
+    color: red;
+}
+.estrelas_avaliação{
+    display: flex;
+    margin: auto;
+    align-items: baseline;
+    padding: 10px 10px;
+    margin-left: 10%;
+}
+.conteudo_navegador{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    text-align: justify;
+    padding: 10px 10px ;
+    margin-left: 10%;
+    padding-right: 10vw;
+}
+.seção_de_elenco{
+    display: flex;
+    padding: 10px;
+    gap: 30%;
+    margin-left: 10%;
+}
+.diretores span{
+    display: flex;
+    gap: 20px;
+}
+.escritores span{
+    display: flex;
+    gap: 20px;
+}
+.Video iframe{
+    border-radius: 31px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    height: 534px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    border: 2px solid red;
+}
+.Video{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+.Video h3{
+    width: 80%;
+}
+
+footer{
+    border-top: 8px solid #222;
+}
+h1::after {
+    /* Precisa adicionar content. Pode ser vazio. (igual exemplo) */
+    /* Precisa adicionar display para aparecer (quando content é vazio) */
+    content: "";
+    display: inline-block;
+  
+    /* Customização */
+    background-image: url(star-checked.svg);
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .stars {
+    /* flexbox */
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .stars input[type="radio"] {
+    /* Reseta o estilo padrão do type=radio */
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    font: inherit;
+  
+    /* Customização */
+    background-image: url(../img/star.svg);
+    background-size: 2.15em 2.15em;
+    width: 2.15em;
+    height: 2.15em;
+    cursor: pointer;
+  }
+  
+  /* Seleciona e altera a imagem da estrela para determinados inputs */
+  .stars input:nth-child(1):checked,
+  .stars input:nth-child(2):checked,
+  .stars input:nth-child(3):checked,
+  .stars input:nth-child(2):checked ~ input:nth-child(3),
+  .stars input:nth-child(1):checked ~ input:nth-child(2),
+  .stars input:nth-child(1):checked ~ input:nth-child(3) {
+    background-image: url(../img/star_checked.svg);
+  }
+  
+  /* Estiliza apenas o botão do tipo 'reset' */
+  button[type="reset"] {
+    background-color: gray;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+  }
+  .diretor_2 {
+    margin-left: -25vw;
+}
+  .escritor_1{
+    margin-left: -10vw;
+  }
+  .escritor_2{
+    margin-left: -25vw;
+  }
+
