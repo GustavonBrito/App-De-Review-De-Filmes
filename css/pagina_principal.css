@@ -277,6 +277,7 @@ footer{
 	padding-top: 20px;
 	border: red;
 	border-top: 8px solid #222;
+	width: 100vw;
 }
 footer p {
 	font-size: 14px;
